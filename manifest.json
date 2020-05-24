@@ -1,7 +1,7 @@
  {
-    "name": "Add2Reminiscence",
+    "name": "AddToReminiscence",
     "version": "0.4",
-    "description": "This extension adds a button to your toolbar which lets you add the current page you're browsing to your Reminiscence instance. Currently, all pages will be saved to the 'AddToReminiscence' directory.",
+    "description": "Lets you add the page you're browsing to your Reminiscence instance (selfhosted bookmark & archiving server).",
     "permissions": [
         "activeTab","declarativeContent", "storage",
 
