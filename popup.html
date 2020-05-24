@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<div class="status-text">
+			<label id="status-text">&nbsp;</label>
+		</div>
+
+		<div id="login-form" class="login-form hidden">
+			<div class="reminscence-url-wrapper row">
+				<label>Reminscence URL</label>
+				<input type="text" id="reminscence-url" class="reminscence-url" placeholder="https://www.yourserver.com" />
+			</div>
+
+			<div class="row">
+				<div class="username-wrapper">
+					<input type="text" id="username" class="username" placeholder="Username" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="password-wrapper">
+					<input type="password" id="password" class="password" placeholder="Password" />
+				</div>
+			</div>
+
+			<div id="login-button" class="button">
+				Login
+			</div>
+		</div>
+
+		<div id="submit-form" class="hidden">
+			<div id="submit-button" class="button">
+				Add current URL to Reminiscence
+			</div>
+		</div>
+
+		<div id="archive-checkbox-form" class="hidden">
+			<label class="width-50" for="shouldArchiveMediaCheckbox">Archive Media</label>
+			<input class="width-25-i" type="checkbox" id="shouldArchiveMediaCheckbox" name="shouldArchiveMediaCheckbox">
+		</div>
+
+		<div id="clear-form">
+			<div id="clear-button" class="button">
+				Clear all data
+			</div>
+		</div>	
+        <script src="popup.js"></script>
+	</body>
+
+</html>

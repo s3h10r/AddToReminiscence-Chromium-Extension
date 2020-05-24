@@ -1,0 +1,22 @@
+
+html, body {
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  width: 90%;
+  margin: 3% auto auto 0%; // top right bottom left
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input {
+  width: 90%;
+}
